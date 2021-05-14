@@ -23,7 +23,7 @@ def find_triplet(array, target):
             right -= 1
         else:
             left += 1
-    return -1
+    return False
 
   
 numbers = [1, 10, 15, 25, 12, 24, 6, 8, 50, 20, 30, 5, 6, 11, 13, 17, 19, 21, 31, 33, 34, 38, 44, 42,99]
